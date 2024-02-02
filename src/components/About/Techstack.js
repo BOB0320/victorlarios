@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiAws,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -23,7 +24,9 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <span style={{ fontSize: "46px", fontFamily: "bold", fontWeight: 700 }}>
+          AWS
+        </span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -62,7 +65,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiAws />
       </Col>
     </Row>
   );
